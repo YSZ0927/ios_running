@@ -27,6 +27,8 @@
 		2FD24878285B053C00616407 /* running_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD24877285B053C00616407 /* running_WatchKit_AppTests.swift */; };
 		2FD24882285B053C00616407 /* running_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD24881285B053C00616407 /* running_WatchKit_AppUITests.swift */; };
 		2FD24884285B053C00616407 /* running_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD24883285B053C00616407 /* running_WatchKit_AppUITestsLaunchTests.swift */; };
+		2FEF114E28656D46007DA841 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEF114D28656D46007DA841 /* Theme.swift */; };
+		2FEF115028656E52007DA841 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEF114F28656E52007DA841 /* DailyScrum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,6 +129,8 @@
 		2FD2487D285B053C00616407 /* running WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "running WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FD24881285B053C00616407 /* running_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = running_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
 		2FD24883285B053C00616407 /* running_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = running_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2FEF114D28656D46007DA841 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		2FEF114F28656E52007DA841 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +212,7 @@
 			children = (
 				2FD2482D285B053700616407 /* runningApp.swift */,
 				2FD2482F285B053700616407 /* ContentView.swift */,
+				2FEF114C28656D1A007DA841 /* Models */,
 				2FD24831285B053900616407 /* Assets.xcassets */,
 				2FD24833285B053900616407 /* Preview Content */,
 			);
@@ -286,6 +291,15 @@
 				2FD24883285B053C00616407 /* running_WatchKit_AppUITestsLaunchTests.swift */,
 			);
 			path = "running WatchKit AppUITests";
+			sourceTree = "<group>";
+		};
+		2FEF114C28656D1A007DA841 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2FEF114D28656D46007DA841 /* Theme.swift */,
+				2FEF114F28656E52007DA841 /* DailyScrum.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -539,6 +553,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FEF115028656E52007DA841 /* DailyScrum.swift in Sources */,
+				2FEF114E28656D46007DA841 /* Theme.swift in Sources */,
 				2FD24830285B053700616407 /* ContentView.swift in Sources */,
 				2FD2482E285B053700616407 /* runningApp.swift in Sources */,
 			);
@@ -742,6 +758,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"running WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = WB2YADR246;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "running WatchKit Extension/Info.plist";
@@ -773,6 +790,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"running WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = WB2YADR246;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "running WatchKit Extension/Info.plist";
@@ -806,6 +824,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WB2YADR246;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = running_WatchKit_Extension;
 				INFOPLIST_KEY_CFBundleDisplayName = "running WatchKit App";
@@ -831,6 +850,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WB2YADR246;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = running_WatchKit_Extension;
 				INFOPLIST_KEY_CFBundleDisplayName = "running WatchKit App";
@@ -857,6 +877,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"running/Preview Content\"";
+				DEVELOPMENT_TEAM = WB2YADR246;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -887,6 +908,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"running/Preview Content\"";
+				DEVELOPMENT_TEAM = WB2YADR246;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -917,6 +939,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WB2YADR246;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
@@ -937,6 +960,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WB2YADR246;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
@@ -957,6 +981,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WB2YADR246;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
@@ -976,6 +1001,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WB2YADR246;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
@@ -997,6 +1023,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WB2YADR246;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "fish10927.running-WatchKit-AppTests";
@@ -1017,6 +1044,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WB2YADR246;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "fish10927.running-WatchKit-AppTests";
@@ -1036,6 +1064,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WB2YADR246;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "fish10927.running-WatchKit-AppUITests";
@@ -1054,6 +1083,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WB2YADR246;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "fish10927.running-WatchKit-AppUITests";
